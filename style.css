@@ -1,0 +1,135 @@
+@import url('https://fonts.googleapis.com/css2?family=Figtree:ital,wght@0,300..900;1,300..900&display=swap');
+
+*, *::before, *::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+} 
+
+/* .attribution { 
+    font-size: 11px; 
+    text-align: center; 
+}
+.attribution a { 
+    color: hsl(228, 45%, 4);
+} */
+@media (min-width: 400px) and (max-width: 600px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: hsl(47, 88%, 63%);
+        font-family: "Figtree";
+    }
+    
+    .container {
+        display: flex;
+        height: 600px;
+        width: 400px; 
+        background-color: white;
+        flex-direction: column;
+        text-align: center;
+        justify-self: center;
+        align-items: center;
+        border-radius: 20px;
+        border: 1px solid;
+        box-shadow: 10px 10px;
+    }
+    
+    svg {
+        margin-top: 25px;
+        border-radius: 15px;
+    }
+    
+    .greg {
+        display: flex;
+        margin-top: 30px;
+    }
+    
+    .greg p {
+        text-indent: 15px;
+        margin-top: 15px;
+    }
+    
+    .container .left {
+        padding: 30px;
+        text-align: left;
+    }
+
+    h2, h3, h4, p {
+        margin-bottom: 20px;
+    }
+
+    .learn{
+        display: inline-block;
+        background-color:  hsl(47, 88%, 63%);
+        padding: 6px;
+        border-radius: 4px;
+    }
+
+    .hooper {
+        width: 50px;
+    }
+}
+
+@media (min-width: 601px) {
+    body {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        min-height: 100vh;
+        background-color: hsl(47, 88%, 63%);
+        font-family: "Figtree";
+    }
+    
+    .container {
+        display: flex;
+        height: 600px;
+        width: 400px; 
+        background-color: white;
+        flex-direction: column;
+        text-align: center;
+        justify-self: center;
+        align-items: center;
+        border-radius: 20px;
+        border: 1px solid;
+        box-shadow: 10px 10px;
+    }
+    
+    svg {
+        margin-top: 25px;
+        border-radius: 15px;
+    }
+    
+    .greg {
+        display: flex;
+        margin-top: 30px;
+    }
+    
+    .greg p {
+        text-indent: 15px;
+        margin-top: 15px;
+    }
+    
+    .container .left {
+        padding: 30px;
+        text-align: left;
+    }
+
+    h2, h3, h4, p {
+        margin-bottom: 20px;
+    }
+
+    .learn{
+        display: inline-block;
+        background-color:  hsl(47, 88%, 63%);
+        padding: 6px;
+        border-radius: 4px;
+    }
+
+    .hooper {
+        width: 50px;
+    }
+}
+
