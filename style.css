@@ -6,6 +6,32 @@
     box-sizing: border-box;
 } 
 
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: hsl(47, 88%, 63%);
+    font-family: "Figtree";
+}
+
+.container{
+    background-color: white;
+    flex-direction: column;
+    text-align: center;
+    justify-self: center;
+    align-items: center;
+    border-radius: 20px;
+    border: 1px solid;
+    box-shadow: 10px 10px;
+}
+
+.learn {
+    display: inline-block;
+    background-color:  hsl(47, 88%, 63%);
+    border-radius: 4px;
+}
+
 /* .attribution { 
     font-size: 11px; 
     text-align: center; 
@@ -14,32 +40,24 @@
     color: hsl(228, 45%, 4);
 } */
 @media (min-width: 350px) and (max-width: 550px) {
-    body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        background-color: hsl(47, 88%, 63%);
-        font-family: "Figtree";
+    h2 {
+        font-size: 20px;
     }
-    
+
+    h4{
+        font-size: 11px;
+        color: black;
+    }
+
     .container {
         display: flex;
-        height: 550px;
-        width: 300px; 
-        background-color: white;
-        flex-direction: column;
-        text-align: center;
-        justify-self: center;
-        align-items: center;
-        border-radius: 20px;
-        border: 1px solid;
-        box-shadow: 10px 10px;
+        height: 445px;
+        width: 320px; 
         padding: 20px 0 0 0;
     }
     
     .blog-img {
-        width: 260px;
+        width: 280px;
         border-radius: 15px;
     }
     
@@ -50,11 +68,11 @@
     
     .greg p {
         text-indent: 15px;
-        margin-top: 15px;
+        margin-top: 12px;
     }
     
     .container .left {
-        padding: 30px;
+        padding: 24px;
         text-align: left;
     }
 
@@ -63,39 +81,28 @@
     }
 
     .learn{
-        display: inline-block;
-        background-color:  hsl(47, 88%, 63%);
         padding: 6px;
-        border-radius: 4px;
     }
 
     .hooper {
-        width: 50px;
+        width: 40px;
+    }
+
+    p {
+        font-size: 12px;
     }
 }
 
 @media (min-width: 551px) {
-    body {
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        min-height: 100vh;
-        background-color: hsl(47, 88%, 63%);
-        font-family: "Figtree";
+
+    h4, p {
+        font-size: clamp(10px, 18px, 30px);
     }
     
     .container {
         display: flex;
-        height: 600px;
+        height: 575px;
         width: 400px; 
-        background-color: white;
-        flex-direction: column;
-        text-align: center;
-        justify-self: center;
-        align-items: center;
-        border-radius: 20px;
-        border: 1px solid;
-        box-shadow: 10px 10px;
     }
     
     .blog-img {
@@ -123,14 +130,15 @@
     }
 
     .learn{
-        display: inline-block;
-        background-color:  hsl(47, 88%, 63%);
-        padding: 6px;
-        border-radius: 4px;
+        padding: 8px;
     }
 
     .hooper {
         width: 50px;
+    }
+
+    p {
+        font-size: 16px;
     }
 }
 
